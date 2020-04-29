@@ -85,7 +85,7 @@ async function onLoadAsync() {
    */
   if ('serviceWorker' in navigator) {
     try {
-      let serviceWorker = await navigator.serviceWorker.register('/sw.js')
+      let serviceWorker = await navigator.serviceWorker.register('/pwa-from-scratch/sw.js', {scope: '/pwa-from-scratch/'})
       console.log(`Service worker registered ${serviceWorker}`)
     } catch (err) {
       console.error(`Failed to register service worker: ${err}`)
