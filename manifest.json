@@ -2,7 +2,7 @@
   "name": "PWA from scratch",
   "short_name": "PWA from scratch",
   "lang": "en-US",
-  "start_url": "/",
+  "start_url": "/pwa-from-scratch/index.html",
   "display": "standalone",
   "theme_color": "#c2f442",
   "icons": [
