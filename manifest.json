@@ -3,7 +3,7 @@
   "short_name": "PWA from scratch",
   "lang": "en-US",
   "start_url": "./index.html",
-  "display": "minimal-ui",
+  "display": "standalone",
   "theme_color": "#c2f442",
   "icons": [
     {
